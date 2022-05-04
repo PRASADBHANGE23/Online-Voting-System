@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home | Online Voting System</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Lobster&family=MonteCarlo&family=Playfair+Display&family=Style+Script&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Cormorant+Garamond&family=Cormorant+Upright&display=swap');
+	</style>
+</head>
+<body>
+<!--	<center>
+	<div id="headerSection">
+	<h1>Online Voting System</h1>
+	</div>
+	<hr>
+	<div id="bodySection">
+	<form action="api/login.php" method="POST">
+		<h2>Login</h2>
+		<input type="number" name="mobile" placeholder="Enter mobile"><br><br>
+		<input type="password" name="password" placeholder="Enter password"><br><br>
+		<select id="dropbox" name="role">
+			<option value="1">Voter</option>
+			<option value="2">Group</option>
+		</select><br><br>
+		<button id="loginbtn" type="submit">Login</button><br><br>
+		New user? <a href="routes/register.html">Register here</a>
+	</form>
+	</div>
+</center>-->
+
+<body style="background-image: url('image/loginbg.jpg'); background-size: 100% 130%; background-repeat: no-repeat;">
+	<div id="headerSection">
+	<h1>Online Voting System</h1>
+	</div>
+	<hr>
+
+	<div id="bodySection">
+	<img id="img1" src="./image/VoteBg4.jpg" />
+	<form action="api/login.php" method="POST">
+		<div id="content">
+		<label id="lb1" for="mobile">Phone Number:</label>
+		<input id="ip1" type="number" name="mobile" ><br><br>
+
+    <label id="lb2" for="password">Password:</label>
+		<input id="ip2" type="password" name="password"><br><br>
+
+		<label id="lb3" for="role">Select your category:</label>
+		<select id="dropbox" name="role">
+			<option value="1">Voter</option>
+			<option value="2">Group</option>
+		</select><br><br>
+		<button type="submit" id="loginbtn">Login</button>
+		<input type="reset" id="reset" value="Reset"></input><br>
+		<div id="li">New user? <a href="routes/register.html"> Register here</a></div>
+
+   </script>
+		</div>
+	</form>
+	</div>
+</body>
+</html>

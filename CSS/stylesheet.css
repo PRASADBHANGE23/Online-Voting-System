@@ -1,0 +1,35 @@
+body{
+	background-color:skyblue;
+}
+#imagepart{
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	width:30%;
+}
+
+#headerSection{
+	padding: 5px;
+}
+#headerSection h1{
+	
+	text-shadow:2px 2px 3px #FF0000;
+}
+input{
+	padding: 10px;
+	border-radius: 5px
+}
+#dropbox{
+	padding: 10px;
+	border-radius: 5px;
+	width:12%;
+}
+#loginbtn{
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow:5px 0.5px;
+	color: red;
+	width: 5%;
+	font-size: 15px;
+	border-radius: 20px
+}
